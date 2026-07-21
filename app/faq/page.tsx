@@ -8,7 +8,7 @@ import { FaqList } from "@/components/sections/faq-list";
 export const metadata: Metadata = {
   title: "FAQ — Questions fréquentes",
   description:
-    "Tout ce que tu dois savoir avant de travailler avec ACERFI Créativ : zone d'intervention, différenciation IA, garanties de résultats, délais, paiements, formation.",
+    "Tout ce que vous devez savoir avant de travailler avec ACERFI Créativ : zone d'intervention, différenciation IA, garanties de résultats, délais, paiements, formation.",
 };
 
 const FAQ = [
@@ -47,11 +47,11 @@ export default function FaqPage() {
           eyebrow="Questions fréquentes"
           title={
             <>
-              Tout ce que tu dois savoir{" "}
+              Tout ce que vous devez savoir{" "}
               <span className="gradient-gold italic">avant de briefer</span>.
             </>
           }
-          description="Si ta question n'est pas dans la liste, contacte-nous : on répond sous 1 heure en journée ouvrée."
+          description="Si votre question n'est pas dans la liste, contactez-nous : nous répondons sous 1 heure en journée ouvrée."
         />
         <FaqList items={FAQ} />
         <FinalCta />

@@ -10,7 +10,7 @@ import { SECTORS } from "@/content/sectors";
 export const metadata: Metadata = {
   title: "Secteurs — Solutions par métier",
   description:
-    "Restaurants, boutiques, écoles, immobilier : on a packagé des solutions sectorielles. Choisis ton terrain, on a déjà les bonnes idées.",
+    "Restaurants, boutiques, écoles, immobilier : nous avons packagé des solutions sectorielles. Choisissez votre terrain, nous avons déjà les bonnes idées.",
 };
 
 export default function SectorsPage() {

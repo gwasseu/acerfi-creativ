@@ -102,13 +102,13 @@ export function ContactBlock({ prefilledService, prefilledPlan }: Props) {
         setSubmitted(true);
       } else {
         setErrorMsg(
-          "Impossible d'envoyer pour l'instant. Tu peux nous contacter directement à " +
+          "Impossible d'envoyer pour l'instant. Vous pouvez nous contacter directement à " +
             ACERFI.contact.emails.primary,
         );
       }
     } catch {
       setErrorMsg(
-        "Erreur réseau. Vérifie ta connexion et réessaie — ou écris-nous à " +
+        "Erreur réseau. Vérifiez votre connexion et réessayez — ou écrivez-nous à " +
           ACERFI.contact.emails.primary,
       );
     } finally {
@@ -246,8 +246,9 @@ export function ContactBlock({ prefilledService, prefilledPlan }: Props) {
               </div>
               <h3 className="font-display text-2xl font-bold">Message reçu</h3>
               <p className="mt-2 max-w-sm text-sm text-muted-foreground">
-                On a bien reçu ton brief. Réponse sous 24 h en jours ouvrés —
-                souvent plus vite. Si urgent, écris-nous sur WhatsApp :{" "}
+                Nous avons bien reçu votre brief. Réponse sous 24 h en jours
+                ouvrés — souvent plus vite. Si urgent, écrivez-nous sur
+                WhatsApp :{" "}
                 <a
                   href={ACERFI.contact.whatsapp}
                   className="font-semibold text-primary hover:underline"
@@ -276,10 +277,10 @@ export function ContactBlock({ prefilledService, prefilledPlan }: Props) {
           ) : (
             <form onSubmit={handleSubmit} className="space-y-5">
               <h2 className="font-display text-2xl font-bold md:text-3xl">
-                Décris ton projet
+                Décrivez votre projet
               </h2>
               <p className="text-sm text-muted-foreground">
-                Plus tu donnes de contexte, plus le brief sera utile.
+                Plus vous donnez de contexte, plus le brief sera utile.
               </p>
 
               {errorMsg && (
@@ -335,14 +336,14 @@ export function ContactBlock({ prefilledService, prefilledPlan }: Props) {
                 </Field>
               </div>
 
-              <Field label="Ton message *">
+              <Field label="Votre message *">
                 <textarea
                   required
                   rows={6}
                   value={form.message}
                   onChange={(e) => setForm({ ...form, message: e.target.value })}
                   className={cn(inputClass, "resize-none")}
-                  placeholder="Décris ton activité, ton besoin, ton délai..."
+                  placeholder="Décrivez votre activité, votre besoin, votre délai..."
                 />
               </Field>
 
@@ -359,8 +360,8 @@ export function ContactBlock({ prefilledService, prefilledPlan }: Props) {
               </button>
 
               <p className="text-center text-[11px] text-muted-foreground/70">
-                En envoyant ce formulaire, tu acceptes qu&apos;on te recontacte
-                par email ou WhatsApp.
+                En envoyant ce formulaire, vous acceptez que nous vous
+                recontactions par email ou WhatsApp.
               </p>
             </form>
           )}

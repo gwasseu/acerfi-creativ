@@ -29,7 +29,7 @@ const SECTORS: Sector[] = [
     title: "Restaurants & Hôtels",
     tagline: "Menu vivant",
     description:
-      "Un QR Code sur la table, et tes clients feuillettent ta carte sur leur téléphone. Photos plein écran, mises à jour instantanées, plats du jour en temps réel.",
+      "Un QR Code sur la table, et vos clients feuillettent votre carte sur leur téléphone. Photos plein écran, mises à jour instantanées, plats du jour en temps réel.",
     image: "/images/sectors/restaurant.jpg",
     imageAlt:
       "Restaurant haut de gamme avec architecture en lattes de bois et éclairage intimiste",
@@ -96,8 +96,8 @@ export function UseCases() {
             <span className="gradient-gold">refusent l&apos;ordinaire</span>
           </h2>
           <p className="mt-6 text-balance text-base text-muted-foreground md:text-lg">
-            Quel que soit ton secteur, FlipBook Pro s&apos;adapte à ton image
-            et révèle ton ambition.
+            Quel que soit votre secteur, FlipBook Pro s&apos;adapte à votre
+            image et révèle votre ambition.
           </p>
         </motion.div>
 

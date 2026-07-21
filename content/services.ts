@@ -152,11 +152,11 @@ export const SERVICES: Service[] = [
     name: "Agent IA Personnalisé",
     flagship: true,
     badge: "IA sur mesure",
-    tagline: "Une intelligence artificielle entraînée sur ton métier",
+    tagline: "Une intelligence artificielle entraînée sur votre métier",
     shortDescription:
-      "Conception de la personnalité, formation sur tes données métier, déploiement multilingue (français, anglais, langues locales).",
+      "Conception de la personnalité, formation sur vos données métier, déploiement multilingue (français, anglais, langues locales).",
     longDescription:
-      "Un agent IA conçu spécifiquement pour ton activité : il connaît tes produits, parle ton ton, gère ton service client 24/7. Multilingue, escalade humaine sur demande.",
+      "Un agent IA conçu spécifiquement pour votre activité : il connaît vos produits, parle votre ton, gère votre service client 24/7. Multilingue, escalade humaine sur demande.",
     icon: Bot,
     accent: "#C9A84C",
     delay: "10–14 jours",
@@ -164,14 +164,14 @@ export const SERVICES: Service[] = [
     priceFcfa: 200000,
     priceSuffix: "forfait",
     problem:
-      "Ton service client est saturé. Les questions répétitives bouffent ton équipe, les leads attendent des heures, tu perds des opportunités la nuit.",
+      "Votre service client est saturé. Les questions répétitives bouffent votre équipe, les leads attendent des heures, vous perdez des opportunités la nuit.",
     solution:
-      "Un agent IA entraîné sur ton métier prend le relais 24/7. Il répond, qualifie, oriente — et passe la main à l'humain quand c'est nécessaire.",
+      "Un agent IA entraîné sur votre métier prend le relais 24/7. Il répond, qualifie, oriente — et passe la main à l'humain quand c'est nécessaire.",
     deliverables: [
       "Conception de la personnalité de l'agent (ton, vocabulaire, valeurs)",
-      "Formation sur tes données métier (produits, FAQ, processus)",
+      "Formation sur vos données métier (produits, FAQ, processus)",
       "Déploiement multilingue : français, anglais, langues locales",
-      "Intégration WhatsApp / web / tablette selon ton besoin",
+      "Intégration WhatsApp / web / tablette selon votre besoin",
       "Système d'escalade humaine intelligent",
       "Dashboard de monitoring + analytics",
       "1 mois de fine-tuning post-lancement inclus",
@@ -218,11 +218,11 @@ export const SERVICES: Service[] = [
     name: "Pack Domination IA",
     flagship: true,
     badge: "Automation marketing complète",
-    tagline: "Ton marketing digital sur pilote automatique",
+    tagline: "Votre marketing digital sur pilote automatique",
     shortDescription:
-      "Génération de contenu, publication programmée, réponse aux commentaires, analytics IA. La machine tourne, tu valides.",
+      "Génération de contenu, publication programmée, réponse aux commentaires, analytics IA. La machine tourne, vous validez.",
     longDescription:
-      "Le pack qui automatise tout ton stack marketing digital : génération texte/visuels par IA, planning éditorial auto, modération communauté, reporting hebdomadaire.",
+      "Le pack qui automatise tout votre stack marketing digital : génération texte/visuels par IA, planning éditorial auto, modération communauté, reporting hebdomadaire.",
     icon: Zap,
     accent: "#C9A84C",
     delay: "21 jours",
@@ -232,7 +232,7 @@ export const SERVICES: Service[] = [
     problem:
       "Publier 3 posts par semaine sur 4 plateformes = 100h/mois pour une équipe humaine. Impossible à tenir, qualité qui dérive.",
     solution:
-      "On automatise toute la chaîne : génération de contenu IA, planning, publication, réponses, analytics. Tu valides 1× par semaine. Ton équipe se concentre sur la stratégie.",
+      "On automatise toute la chaîne : génération de contenu IA, planning, publication, réponses, analytics. Vous validez 1× par semaine. Votre équipe se concentre sur la stratégie.",
     deliverables: [
       "Génération de contenu IA (textes, visuels, légendes)",
       "Calendrier éditorial automatisé sur 90 jours",
@@ -240,7 +240,7 @@ export const SERVICES: Service[] = [
       "Réponse automatique aux commentaires + escalade",
       "Analytics IA hebdomadaires avec recommandations",
       "Dashboard centralisé pour validation rapide",
-      "Formation de ton équipe sur l'outil (3h)",
+      "Formation de votre équipe sur l'outil (3h)",
     ],
     related: ["agent-ia-personnalise", "campagne-ia-flash", "pack-conquest-totale"],
   },
@@ -269,7 +269,7 @@ export const SERVICES: Service[] = [
     pole: "video-photo",
     name: "Photo + Vidéo Standard",
     badge: "Shooting + montage pro",
-    tagline: "Le pack starter pour ton contenu social",
+    tagline: "Le pack starter pour votre contenu social",
     shortDescription:
       "Une journée de shooting + montage pro. Idéal pour réseaux sociaux, témoignages clients, vues produit.",
     icon: Camera,
@@ -288,11 +288,11 @@ export const SERVICES: Service[] = [
     name: "Clip Vidéo Créatif",
     flagship: true,
     badge: "Direction artistique complète",
-    tagline: "Ton film de marque, écrit, tourné, monté",
+    tagline: "Votre film de marque, écrit, tourné, monté",
     shortDescription:
       "Concept, scénario, tournage, montage, étalonnage. De 500k à 1.5M FCFA selon ampleur.",
     longDescription:
-      "Une vidéo de marque haut de gamme avec écriture, story-board, tournage multi-caméra, étalonnage cinéma, sound design. Le standard à exiger pour ton image.",
+      "Une vidéo de marque haut de gamme avec écriture, story-board, tournage multi-caméra, étalonnage cinéma, sound design. Le standard à exiger pour votre image.",
     icon: Film,
     accent: "#EF4444",
     image: "/photos/story-reels.jpg",
@@ -302,7 +302,7 @@ export const SERVICES: Service[] = [
     priceFcfa: 500000,
     priceSuffix: "selon ampleur",
     problem:
-      "Tes vidéos actuelles ne reflètent pas ton standing. Mal cadrées, son médiocre, pas de direction artistique. Elles ne convertissent pas.",
+      "Vos vidéos actuelles ne reflètent pas votre standing. Mal cadrées, son médiocre, pas de direction artistique. Elles ne convertissent pas.",
     solution:
       "Une production cinéma : concept écrit, story-board, équipement broadcast, étalonnage, mixage. Le résultat est diffusable partout sans complexe.",
     deliverables: [
@@ -353,7 +353,7 @@ export const SERVICES: Service[] = [
     pole: "video-photo",
     name: "Photo Événementielle",
     badge: "Standard ou Premium",
-    tagline: "Capturer ton événement avec la juste exigence",
+    tagline: "Capturer votre événement avec la juste exigence",
     shortDescription:
       "Photo standard 50–200k FCFA · Premium 800k–1.2M FCFA. Mariages : 100–300k FCFA selon journée.",
     icon: Camera,
@@ -370,11 +370,11 @@ export const SERVICES: Service[] = [
     name: "Avatars IA & Vidéos Intelligentes",
     flagship: true,
     badge: "HeyGen · Synthesia · clonage vocal",
-    tagline: "Tu n'as plus besoin de te filmer pour publier tous les jours",
+    tagline: "Vous n'avez plus besoin de vous filmer pour publier tous les jours",
     shortDescription:
       "Création d'avatars virtuels, vidéos générées par IA, clonage vocal multilingue, doublage automatisé.",
     longDescription:
-      "Crée un avatar de marque qui parle pour toi 24/7 dans toutes les langues. Génération de vidéos en quelques minutes, sans tournage. Premier studio à industrialiser ces outils au Cameroun.",
+      "Créez un avatar de marque qui parle pour vous 24/7 dans toutes les langues. Génération de vidéos en quelques minutes, sans tournage. Une industrialisation avancée de ces outils au Cameroun.",
     icon: Sparkles,
     accent: "#EF4444",
     delay: "7–14 jours",
@@ -382,15 +382,15 @@ export const SERVICES: Service[] = [
     priceFcfa: null,
     priceSuffix: "selon avatar et volume",
     problem:
-      "Tu ne peux pas être devant la caméra tous les jours. Et engager un comédien pour chaque vidéo coûte cher et prend du temps.",
+      "Vous ne pouvez pas être devant la caméra tous les jours. Et engager un comédien pour chaque vidéo coûte cher et prend du temps.",
     solution:
-      "On crée ton avatar IA (jumeau numérique ou personnage virtuel). Ensuite tu produits des vidéos en quelques minutes, dans toutes les langues, à un coût marginal.",
+      "On crée votre avatar IA (jumeau numérique ou personnage virtuel). Ensuite vous produisez des vidéos en quelques minutes, dans toutes les langues, à un coût marginal.",
     deliverables: [
       "Création de l'avatar virtuel (jumeau ou personnage)",
       "Clonage vocal multilingue (FR, EN, langues locales)",
       "Banque de scripts validés + générateur",
       "Plateforme de génération en self-service",
-      "Formation de ton équipe (2h)",
+      "Formation de votre équipe (2h)",
       "Doublage automatisé pour vidéos existantes",
     ],
     related: ["agent-ia-personnalise", "pack-domination-ia", "clip-video-creatif"],
@@ -404,7 +404,7 @@ export const SERVICES: Service[] = [
     pole: "design",
     name: "Design Graphique Standard",
     badge: "Visuels & posts sociaux",
-    tagline: "Le design qu'il te faut, à la demande",
+    tagline: "Le design qu'il vous faut, à la demande",
     shortDescription:
       "Visuels, infographies, posts réseaux sociaux. Pour les besoins ponctuels et récurrents.",
     icon: ImageIcon,
@@ -435,9 +435,9 @@ export const SERVICES: Service[] = [
     priceFcfa: 150000,
     priceSuffix: "forfait",
     problem:
-      "Tu as une activité mais pas de marque cohérente. Logo bricolé, couleurs aléatoires, papeterie générique. Tu perds en crédibilité dès le premier contact.",
+      "Vous avez une activité mais pas de marque cohérente. Logo bricolé, couleurs aléatoires, papeterie générique. Vous perdez en crédibilité dès le premier contact.",
     solution:
-      "Un pack complet, à prix fixe, livré en 2 semaines : logo signature + charte + papeterie + templates social media. Tu ressors avec une vraie marque.",
+      "Un pack complet, à prix fixe, livré en 2 semaines : logo signature + charte + papeterie + templates social media. Vous ressortez avec une vraie marque.",
     deliverables: [
       "3 propositions de logo + finalisation",
       "Logo livré en 6 formats (SVG, PNG, JPG · couleur, monochrome, blanc)",
@@ -454,7 +454,7 @@ export const SERVICES: Service[] = [
     pole: "design",
     name: "Supports Imprimés",
     badge: "Print · Packaging · Signalétique",
-    tagline: "Ton image dans la matière",
+    tagline: "Votre image dans la matière",
     shortDescription:
       "Flyers, affiches, brochures, packaging, étiquetage, signalétique d'entreprise, roll-ups, bâches événementielles.",
     icon: Package,
@@ -473,9 +473,9 @@ export const SERVICES: Service[] = [
     badge: "Solution exclusive ACERFI Créativ",
     tagline: "Catalogue & menu numérique interactif",
     shortDescription:
-      "Transforme ton catalogue/menu/brochure en flipbook numérique feuilletable, accessible via QR Code.",
+      "Transformez votre catalogue/menu/brochure en flipbook numérique feuilletable, accessible via QR Code.",
     longDescription:
-      "FlipBook Pro transforme ton PDF en magazine numérique haut de gamme : feuilletable, hébergé, partageable, mesurable. Mise à jour instantanée — finie l'impression coûteuse à chaque changement de prix.",
+      "FlipBook Pro transforme votre PDF en magazine numérique haut de gamme : feuilletable, hébergé, partageable, mesurable. Mise à jour instantanée — finie l'impression coûteuse à chaque changement de prix.",
     icon: BookOpen,
     accent: "#C9A84C",
     delay: "5 jours",
@@ -483,12 +483,12 @@ export const SERVICES: Service[] = [
     priceFcfa: 99000,
     priceSuffix: "/ an",
     problem:
-      "Imprimer un catalogue coûte cher, périme vite et ne se mesure pas. Tes clients ne le gardent pas, tes commerciaux le perdent, tes mises à jour t'obligent à tout réimprimer.",
+      "Imprimer un catalogue coûte cher, périme vite et ne se mesure pas. Vos clients ne le gardent pas, vos commerciaux le perdent, vos mises à jour vous obligent à tout réimprimer.",
     solution:
-      "Un FlipBook Pro = un lien et un QR Code. Accessible partout, mis à jour en 5 minutes, partageable sur WhatsApp d'un clic. Et tu vois exactement qui consulte quoi.",
+      "Un FlipBook Pro = un lien et un QR Code. Accessible partout, mis à jour en 5 minutes, partageable sur WhatsApp d'un clic. Et vous voyez exactement qui consulte quoi.",
     deliverables: [
       "Conversion PDF → flipbook HD avec animation de page réaliste",
-      "QR Code vectoriel personnalisé aux couleurs de ta marque",
+      "QR Code vectoriel personnalisé aux couleurs de votre marque",
       "Lien court partageable + bouton WhatsApp intégré",
       "Hébergement sécurisé HTTPS inclus 12 mois",
       "Statistiques de consultation (vues, pages lues, durée)",
@@ -496,15 +496,15 @@ export const SERVICES: Service[] = [
       "Support par email (Pro et Business : WhatsApp prioritaire)",
     ],
     steps: [
-      { day: "J 0", title: "Brief & contenus", body: "Tu nous envoies ton PDF (ou tes contenus bruts). On valide ensemble la cible, le ton, les pages." },
-      { day: "J + 2", title: "Maquette", body: "On transforme ton contenu en flipbook premium. Maquette envoyée en 48 h." },
+      { day: "J 0", title: "Brief & contenus", body: "Vous nous envoyez votre PDF (ou vos contenus bruts). On valide ensemble la cible, le ton, les pages." },
+      { day: "J + 2", title: "Maquette", body: "On transforme votre contenu en flipbook premium. Maquette envoyée en 48 h." },
       { day: "J + 3", title: "Validation", body: "Aller-retours jusqu'à ce que ce soit parfait. Modifications illimitées avant la mise en ligne." },
-      { day: "J + 5", title: "Live", body: "Lien et QR Code livrés. Tu peux scanner, partager et suivre les consultations." },
+      { day: "J + 5", title: "Live", body: "Lien et QR Code livrés. Vous pouvez scanner, partager et suivre les consultations." },
     ],
     faq: [
       { q: "Combien de pages puis-je avoir ?", a: "8 pages en Essentiel, 15 en Pro, 40 en Business. Pour plus, le plan Illimité est sur devis." },
-      { q: "Je peux modifier après la mise en ligne ?", a: "Oui, selon ton plan : 1 modif/trimestre en Essentiel, 2 en Pro, 3 en Business, illimité en Illimité." },
-      { q: "Faut-il un site web ?", a: "Non. Ton FlipBook a son propre lien. Tu peux aussi l'intégrer dans un site existant si tu en as un." },
+      { q: "Je peux modifier après la mise en ligne ?", a: "Oui, selon votre plan : 1 modif/trimestre en Essentiel, 2 en Pro, 3 en Business, illimité en Illimité." },
+      { q: "Faut-il un site web ?", a: "Non. Votre FlipBook a son propre lien. Vous pouvez aussi l'intégrer dans un site existant si vous en avez un." },
       { q: "Ça marche sur les téléphones bas de gamme ?", a: "Oui. Le rendu est optimisé pour 3G et tous les smartphones, y compris en lecture hors-ligne après chargement." },
     ],
     related: ["brand-starter", "site-express", "supports-imprimes"],
@@ -518,9 +518,9 @@ export const SERVICES: Service[] = [
     pole: "strategie",
     name: "Stratégie de Contenu",
     badge: "Plan éditorial 3 mois",
-    tagline: "La feuille de route de ta voix",
+    tagline: "La feuille de route de votre voix",
     shortDescription:
-      "Audit communication + planning éditorial sur 3 mois. Tu sais quoi publier, quand, où et pourquoi.",
+      "Audit communication + planning éditorial sur 3 mois. Vous savez quoi publier, quand, où et pourquoi.",
     icon: Target,
     accent: "#3B82F6",
     delay: "10 jours",
@@ -550,7 +550,7 @@ export const SERVICES: Service[] = [
     pole: "strategie",
     name: "Audit Domination Concurrentielle",
     badge: "Analyse + plan d'action",
-    tagline: "Comprendre tes concurrents pour les dépasser",
+    tagline: "Comprendre vos concurrents pour les dépasser",
     shortDescription:
       "Analyse complète du positionnement, des concurrents et de la stratégie marketing. Livrable actionnable.",
     icon: Trophy,
@@ -571,7 +571,7 @@ export const SERVICES: Service[] = [
     name: "Site Vitrine Express",
     flagship: true,
     badge: "Domaine + hébergement 1 an offerts",
-    tagline: "Ton site vitrine premium, en ligne en 5 jours",
+    tagline: "Votre site vitrine premium, en ligne en 5 jours",
     shortDescription:
       "One-pager ou vitrine multi-pages premium. Domaine et hébergement 1 an inclus. Paiement unique.",
     longDescription:
@@ -585,7 +585,7 @@ export const SERVICES: Service[] = [
     priceFcfa: 99000,
     priceSuffix: "paiement unique",
     problem:
-      "Tu n'as pas de site, ou tu as un site WordPress qui plante, mal référencé, lent et pas mobile. Tes clients ne te trouvent pas en ligne.",
+      "Vous n'avez pas de site, ou vous avez un site WordPress qui plante, mal référencé, lent et pas mobile. Vos clients ne vous trouvent pas en ligne.",
     solution:
       "Un site one-pager ou vitrine premium : design pro, ultra rapide, mobile-first, avec WhatsApp intégré et formulaire qui marche. Domaine et hébergement inclus.",
     deliverables: [
@@ -605,7 +605,7 @@ export const SERVICES: Service[] = [
     name: "Site Premium IA",
     flagship: true,
     badge: "Jusqu'à 10 pages · Contenu IA",
-    tagline: "Ton site multi-pages avec contenu généré par IA",
+    tagline: "Votre site multi-pages avec contenu généré par IA",
     shortDescription:
       "10 pages, contenu IA, SEO avancé. Pour les agences et marques qui ont des choses à raconter.",
     longDescription:
@@ -639,7 +639,7 @@ export const SERVICES: Service[] = [
     pole: "web",
     name: "Refonte IA",
     badge: "Migration + IA",
-    tagline: "Ton site existant boosté à l'IA",
+    tagline: "Votre site existant boosté à l'IA",
     shortDescription:
       "Refonte complète d'un site obsolète : design moderne + contenu IA + SEO. Sans repartir de zéro.",
     icon: Wand2,
@@ -660,7 +660,7 @@ export const SERVICES: Service[] = [
     shortDescription:
       "Site web + animation réseaux sociaux + publicité + reporting mensuel + formation équipe. Tout-en-un.",
     longDescription:
-      "Le pack qui couvre tout ton digital : on construit, on anime, on achète de la pub, on forme ton équipe et on rend des comptes chaque mois.",
+      "Le pack qui couvre tout votre digital : on construit, on anime, on achète de la pub, on forme votre équipe et on rend des comptes chaque mois.",
     icon: Rocket,
     accent: "#10B981",
     delay: "Récurrent",
@@ -672,7 +672,7 @@ export const SERVICES: Service[] = [
       "Animation réseaux sociaux (3–5 posts / semaine)",
       "Publicité Meta Ads + Google Ads (budget pub en sus)",
       "Reporting mensuel avec recommandations",
-      "Formation continue de ton équipe",
+      "Formation continue de votre équipe",
       "Account manager dédié",
     ],
     related: ["site-premium-ia", "pack-domination-ia", "pack-rocket-start"],
@@ -687,11 +687,11 @@ export const SERVICES: Service[] = [
     name: "Caravane Marketing",
     flagship: true,
     badge: "Fourgonnette ou Camion Premium",
-    tagline: "Le terrain, brandé à tes couleurs",
+    tagline: "Le terrain, brandé à vos couleurs",
     shortDescription:
       "Fourgonnette 90k FCFA · Camion Premium avec sonorisation et écran LED 150k FCFA. Activation mobile + animations + flyers.",
     longDescription:
-      "Notre caravane mobile va au contact de tes clients. Véhicule brandé, équipe formée, supports print, animation produit, captation photo/vidéo. Idéal pour lancement, ouverture, campagne.",
+      "Notre caravane mobile va au contact de vos clients. Véhicule brandé, équipe formée, supports print, animation produit, captation photo/vidéo. Idéal pour lancement, ouverture, campagne.",
     icon: Truck,
     accent: "#FF9E2C",
     image: "/images/services/caravane.jpg",
@@ -701,12 +701,12 @@ export const SERVICES: Service[] = [
     priceFcfa: 90000,
     priceSuffix: "/ jour selon véhicule",
     problem:
-      "Tu lances un produit ou ouvres une boutique : il faut générer du buzz local, du contact direct. Les pubs digitales seules ne suffisent pas.",
+      "Vous lancez un produit ou ouvrez une boutique : il faut générer du buzz local, du contact direct. Les pubs digitales seules ne suffisent pas.",
     solution:
       "Caravane brandée + équipe sur le terrain + animations. On va dans les quartiers cibles, on parle aux gens, on distribue, on capte les réactions.",
     deliverables: [
       "Habillage complet du véhicule (covering)",
-      "Équipe de 2 à 5 animateurs formés à ta marque",
+      "Équipe de 2 à 5 animateurs formés à votre marque",
       "Production des supports (flyers, samples, goodies)",
       "Sonorisation et animation micro (Camion Premium : écran LED)",
       "Captation photo & vidéo de l'activation",
@@ -761,7 +761,7 @@ export const SERVICES: Service[] = [
     shortDescription:
       "Lancement marketing 30 jours avec garantie de résultats. KPIs définis, prestations correctives offertes si non atteints.",
     longDescription:
-      "Le pack qui te lance fort : stratégie + production créative + campagne digitale + activation. 30 jours de pleine puissance avec garantie de résultats sur les KPIs convenus.",
+      "Le pack qui vous lance fort : stratégie + production créative + campagne digitale + activation. 30 jours de pleine puissance avec garantie de résultats sur les KPIs convenus.",
     icon: Rocket,
     accent: "#FFD700",
     delay: "30 jours d'opération",
@@ -796,7 +796,7 @@ export const SERVICES: Service[] = [
     shortDescription:
       "Campagne multi-canaux coordonnée. Tous les pôles activés sur une même cible. Synchronisation parfaite.",
     longDescription:
-      "Quand tu veux frapper fort sur tous les canaux à la fois : digital, terrain, IA, événement — tout coordonné par un account manager dédié, avec reporting unifié.",
+      "Quand vous voulez frapper fort sur tous les canaux à la fois : digital, terrain, IA, événement — tout coordonné par un account manager dédié, avec reporting unifié.",
     icon: Target,
     accent: "#FFD700",
     delay: "30–60 jours",

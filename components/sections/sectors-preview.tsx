@@ -9,9 +9,9 @@ import { SECTORS, type Sector } from "@/content/sectors";
 import { Chapter } from "@/components/ui/chapter";
 
 const LAYOUT: Array<{ slug: string; size: "hero" | "tall" | "default" }> = [
-  { slug: "restaurants-hotels", size: "hero" },
-  { slug: "boutiques-retail", size: "tall" },
-  { slug: "ecoles-formations", size: "default" },
+  { slug: "restauration", size: "hero" },
+  { slug: "commerce", size: "tall" },
+  { slug: "education", size: "default" },
   { slug: "immobilier", size: "default" },
 ];
 
@@ -46,8 +46,8 @@ export function SectorsPreview() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="max-w-md text-balance text-base text-muted-foreground md:text-lg lg:justify-self-end lg:text-right"
           >
-            On a packagé des solutions sectorielles. Choisis ton terrain, on a
-            déjà les bonnes idées.
+            Nous avons packagé des solutions sectorielles. Choisissez votre
+            terrain, nous avons déjà les bonnes idées.
           </motion.p>
         </div>
 

@@ -38,7 +38,7 @@ export default function ProcessusPage() {
               étape.
             </>
           }
-          description="Tu sais quand tu reçois quoi. Tu valides à chaque étape. Tu gardes la main."
+          description="Vous savez quand vous recevez quoi. Vous validez à chaque étape. Vous gardez la main."
         />
 
         {/* Timeline 4 étapes */}
@@ -85,7 +85,7 @@ export default function ProcessusPage() {
                 Délais standards
               </span>
               <h2 className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight md:text-5xl">
-                Ce que tu peux attendre, en jours
+                Ce que vous pouvez attendre, en jours
               </h2>
               <p className="mt-4 text-base text-muted-foreground">
                 Chaque chantier a son rythme — et on s&apos;y tient.

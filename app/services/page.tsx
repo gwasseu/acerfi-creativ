@@ -25,7 +25,7 @@ export default function ServicesPage() {
               <span className="gradient-gold italic">augmenté par l&apos;IA</span>
             </>
           }
-          description="Du design à l'automatisation. Chaque service a son scope, son délai, son prix. Tu choisis ton pôle ci-dessous et on livre."
+          description="Du design à l'automatisation. Chaque service a son scope, son délai, son prix. Choisissez votre pôle ci-dessous et nous livrons."
         />
         <PoleNav />
         <ServicesGrid />

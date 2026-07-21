@@ -28,7 +28,7 @@ export const ACERFI = {
     tagline: "L'Agence Créative Augmentée par l'IA",
     subtitle:
       "Du design à l'automatisation, nous transformons vos idées en performance digitale.",
-    positioning: "Premier studio IA marketing du Cameroun",
+    positioning: "Studio créatif & marketing IA — Yaoundé",
     description:
       "Studio créatif et marketing IA basé à Yaoundé, au service des marques africaines ambitieuses. Pôle créatif et marketing du Groupe ACERFI.",
     mission:
@@ -112,7 +112,7 @@ export const ACERFI = {
   trustBadges: [
     { value: "30+ ans", label: "d'expertise (Groupe ACERFI, depuis 1995)" },
     { value: "100+", label: "clients accompagnés au Cameroun et en Afrique francophone" },
-    { value: "Premier", label: "studio IA marketing du Cameroun" },
+    { value: "IA générative", label: "intégrée dans tous nos workflows" },
     { value: "Yaoundé · Douala", label: "Afrique francophone" },
   ],
 

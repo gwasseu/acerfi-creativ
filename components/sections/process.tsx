@@ -17,28 +17,28 @@ const STEPS = [
     icon: FileText,
     day: "J 0",
     title: "Brief express",
-    body: "Tu remplis un mini-brief en 5 minutes. Tu nous envoies ton PDF (ou tes contenus, tes photos). On valide ensemble la cible et le ton.",
-    accent: "Tu poses les bases",
+    body: "Vous remplissez un mini-brief en 5 minutes. Vous nous envoyez votre PDF (ou vos contenus, vos photos). On valide ensemble la cible et le ton.",
+    accent: "Vous posez les bases",
   },
   {
     icon: Palette,
     day: "J + 2",
     title: "Design sur mesure",
-    body: "Notre studio transforme ton contenu en magazine numérique haut de gamme. Maquette envoyée en 48 heures.",
+    body: "Notre studio transforme votre contenu en magazine numérique haut de gamme. Maquette envoyée en 48 heures.",
     accent: "On donne vie",
   },
   {
     icon: Eye,
     day: "J + 3",
-    title: "Tu valides, on ajuste",
+    title: "Vous validez, on ajuste",
     body: "Aller-retours jusqu'à ce que ce soit parfait. Modifications illimitées avant la mise en ligne.",
-    accent: "Tu vois, tu décides",
+    accent: "Vous voyez, vous décidez",
   },
   {
     icon: Rocket,
     day: "J + 5",
     title: "Live & partagé",
-    body: "Ton FlipBook est en ligne, scannable depuis n'importe quel téléphone. QR Code fourni, lien WhatsApp, statistiques activées.",
+    body: "Votre FlipBook est en ligne, scannable depuis n'importe quel téléphone. QR Code fourni, lien WhatsApp, statistiques activées.",
     accent: "Ça décolle",
   },
 ];
@@ -81,12 +81,12 @@ export function Process() {
             </span>
           </div>
           <h2 className="font-display text-4xl font-bold leading-[1.05] tracking-tight md:text-6xl lg:text-7xl">
-            De ton PDF à un{" "}
+            De votre PDF à un{" "}
             <span className="gradient-gold">catalogue qui cartonne</span>
           </h2>
           <p className="mt-5 text-balance text-base text-muted-foreground md:text-lg">
-            On a designé un process rapide, transparent et sans surprise.
-            Tu sais exactement ce qu&apos;il se passe — à chaque étape.
+            Nous avons designé un process rapide, transparent et sans surprise.
+            Vous savez exactement ce qu&apos;il se passe — à chaque étape.
           </p>
         </motion.div>
 
@@ -140,7 +140,7 @@ export function Process() {
           className="mt-20 flex flex-col items-center gap-4 text-center"
         >
           <p className="text-sm text-muted-foreground">
-            Prêt à voir ton premier FlipBook en moins d&apos;une semaine ?
+            Prêt à voir votre premier FlipBook en moins d&apos;une semaine ?
           </p>
           <a
             href="#pricing"

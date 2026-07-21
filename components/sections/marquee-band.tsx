@@ -19,7 +19,7 @@ const LANE_BOTTOM = [
   "Microsoft Gold Partner depuis 1993",
   "100+ clients",
   "30+ ans d'expertise",
-  "Premier studio IA marketing",
+  "IA générative industrialisée",
   "Groupe ACERFI",
 ];
 

@@ -282,7 +282,7 @@ export function ServiceDetail({ slug }: Props) {
                 Ce qui est livré
               </h2>
               <p className="mt-4 text-base text-muted-foreground">
-                Tu sais exactement ce que tu reçois. Pas de surprise, pas
+                Vous savez exactement ce que vous recevez. Pas de surprise, pas
                 d&apos;upsell caché.
               </p>
             </div>
@@ -324,7 +324,7 @@ export function ServiceDetail({ slug }: Props) {
                 Comment ça se passe
               </h2>
               <p className="mt-4 text-base text-muted-foreground">
-                Un process clair, étape par étape. Tu sais quand tu reçois quoi.
+                Un process clair, étape par étape. Vous savez quand vous recevez quoi.
               </p>
             </div>
           </Reveal>

@@ -296,12 +296,12 @@ export function SectorDetail({ slug }: Props) {
               }}
             />
             <h2 className="font-display text-3xl font-bold md:text-4xl">
-              Tu es dans le secteur{" "}
+              Vous êtes dans le secteur{" "}
               <span style={{ color: accent }}>{sector.name.split(",")[0]}</span> ?
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-base text-muted-foreground">
-              Brief gratuit en 30 minutes pour évaluer ce qu&apos;on peut faire
-              pour toi.
+              Brief gratuit en 30 minutes pour évaluer ce que nous pouvons faire
+              pour vous.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <Link

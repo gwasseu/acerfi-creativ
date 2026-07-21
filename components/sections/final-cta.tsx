@@ -43,11 +43,11 @@ export function FinalCta() {
 
         <h2 className="font-display text-4xl font-bold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl">
           On parle de{" "}
-          <span className="gradient-gold">ton projet</span>{" "}?
+          <span className="gradient-gold">votre projet</span>{" "}?
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-balance text-base text-muted-foreground md:text-lg">
-          Brief gratuit en visio ou WhatsApp. On te dit en 30 minutes ce qu&apos;on
-          peut faire, à quel prix, en combien de jours. Sans baratin.
+          Brief gratuit en visio ou WhatsApp. Nous vous disons en 30 minutes ce
+          que nous pouvons faire, à quel prix, en combien de jours. Sans baratin.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

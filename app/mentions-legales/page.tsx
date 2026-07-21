@@ -84,9 +84,9 @@ const SECTIONS = [
         <p className="mt-4">
           Conformément à la réglementation en vigueur (notamment au cadre
           juridique camerounais sur la protection des données personnelles et
-          au RGPD pour les visiteurs européens), tu disposes d&apos;un droit
+          au RGPD pour les visiteurs européens), vous disposez d&apos;un droit
           d&apos;accès, de rectification, de suppression et d&apos;opposition. Pour
-          exercer ces droits, contacte-nous à{" "}
+          exercer ces droits, contactez-nous à{" "}
           <a
             href={`mailto:${ACERFI.contact.emails.primary}`}
             className="text-primary hover:underline"
@@ -105,11 +105,11 @@ const SECTIONS = [
         <p>
           Ce site utilise un nombre minimal de cookies, strictement nécessaires
           au fonctionnement (préférences d&apos;affichage, session). Aucun cookie de
-          tracking publicitaire n&apos;est posé sans ton consentement explicite.
+          tracking publicitaire n&apos;est posé sans votre consentement explicite.
         </p>
         <p className="mt-4">
-          Tu peux à tout moment configurer ton navigateur pour refuser les
-          cookies. Consulte la documentation de ton navigateur (Chrome,
+          Vous pouvez à tout moment configurer votre navigateur pour refuser les
+          cookies. Consultez la documentation de votre navigateur (Chrome,
           Firefox, Safari, Edge) pour savoir comment.
         </p>
       </>
@@ -179,7 +179,7 @@ export default function MentionsLegalesPage() {
               <span className="gradient-gold italic">légales</span>
             </>
           }
-          description="Tout ce que tu dois savoir sur l'éditeur, les CGV, les cookies et la protection de tes données."
+          description="Tout ce que vous devez savoir sur l'éditeur, les CGV, les cookies et la protection de vos données."
         />
 
         <section className="relative w-full px-6 py-16 md:py-20">
@@ -199,7 +199,7 @@ export default function MentionsLegalesPage() {
             ))}
 
             <p className="pt-4 text-center text-xs text-muted-foreground/60">
-              Dernière mise à jour : {new Date().toLocaleDateString("fr-FR", { year: "numeric", month: "long", day: "numeric" })}.
+              Dernière mise à jour : 21 juillet 2026.
             </p>
           </div>
         </section>

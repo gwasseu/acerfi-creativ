@@ -115,7 +115,7 @@ export function Pricing() {
           <p className="mt-6 text-balance text-base text-muted-foreground md:text-lg">
             Moins cher qu&apos;une impression papier. Et infiniment plus
             puissant. Mise en ligne en moins de 5 jours après réception
-            de tes contenus.
+            de vos contenus.
           </p>
         </motion.div>
 

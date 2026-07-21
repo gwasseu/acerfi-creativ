@@ -25,13 +25,13 @@ const SERVICES: Service[] = [
     icon: Eye,
     title: "Identité Visuelle",
     description:
-      "Logo, charte graphique, brand guidelines. La signature qui rend ta marque reconnaissable au premier coup d'œil.",
+      "Logo, charte graphique, brand guidelines. La signature qui rend votre marque reconnaissable au premier coup d'œil.",
   },
   {
     icon: Palette,
     title: "Design Graphique",
     description:
-      "Print, digital, réseaux sociaux, signalétique. Tous tes supports déclinés avec exigence et cohérence.",
+      "Print, digital, réseaux sociaux, signalétique. Tous vos supports déclinés avec exigence et cohérence.",
     image: "/images/services/branding.jpg",
     imageAlt:
       "Bureau de designer avec tablette et iMac affichant les outils Adobe",
@@ -40,13 +40,13 @@ const SERVICES: Service[] = [
     icon: Layout,
     title: "UI/UX Design",
     description:
-      "Interfaces intuitives, design systems, prototypes. Pensé pour tes utilisateurs, livré aux développeurs.",
+      "Interfaces intuitives, design systems, prototypes. Pensé pour vos utilisateurs, livré aux développeurs.",
   },
   {
     icon: Package,
     title: "Packaging",
     description:
-      "Emballages, design produit, PLV. L'expérience de ta marque, prise en main par le client.",
+      "Emballages, design produit, PLV. L'expérience de votre marque, prise en main par le client.",
   },
   {
     icon: Wand2,
@@ -60,7 +60,7 @@ const SERVICES: Service[] = [
     icon: Megaphone,
     title: "Branding Digital",
     description:
-      "Sites web, landing pages, stratégie digitale. Ta marque, partout où tes clients te cherchent.",
+      "Sites web, landing pages, stratégie digitale. Votre marque, partout où vos clients vous cherchent.",
     image: "/images/services/street-marketing.jpg",
     imageAlt: "Activation street-marketing en milieu urbain",
   },

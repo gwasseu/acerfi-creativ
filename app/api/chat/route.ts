@@ -77,7 +77,7 @@ const escalationDeclaration: FunctionDeclaration = {
       sector_slug: {
         type: Type.STRING,
         description:
-          "Slug du secteur concerné si identifié (ex: 'restaurants-hotels')",
+          "Slug du secteur concerné si identifié (ex: 'restauration')",
       },
     },
     required: ["title", "summary", "contact_email", "type"],

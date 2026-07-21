@@ -26,13 +26,13 @@ export type Sector = {
 
 export const SECTORS: Sector[] = [
   {
-    slug: "restaurants-hotels",
+    slug: "restauration",
     name: "Restaurants, hôtels, lounges",
     tagline: "Menu vivant",
     shortDescription:
       "QR Code à chaque table, carte qui se met à jour en 5 minutes, plats du jour en temps réel.",
     longDescription:
-      "On accompagne les restaurants et hôtels camerounais qui visent le haut de gamme. De l'identité au menu digital feuilletable, des photos plats aux Reels Instagram, tu ouvres prêt et tu rayonnes.",
+      "Nous accompagnons les restaurants et hôtels camerounais qui visent le haut de gamme. De l'identité au menu digital feuilletable, des photos plats aux Reels Instagram, vous ouvrez prêts et vous rayonnez.",
     icon: UtensilsCrossed,
     accent: "#EF4444",
     image: "/images/sectors/restaurant.jpg",
@@ -49,32 +49,32 @@ export const SECTORS: Sector[] = [
         body: "Une carte feuilletable depuis chaque table. Mise à jour en temps réel. Statistiques de consultation par plat.",
       },
       {
-        title: "Shooting photo pro de tes plats",
+        title: "Shooting photo pro de vos plats",
         body: "Inclus dans le Pack Resto. Notre photographe vient en cuisine, capture 15 plats signature, retouches incluses.",
       },
       {
         title: "Reels Instagram & TikTok réguliers",
-        body: "Avec Story Reels, tu produis 8 à 12 vidéos / mois autour de tes plats du jour, ambiance, équipe.",
+        body: "Avec Story Reels, vous produisez 8 à 12 vidéos / mois autour de vos plats du jour, ambiance, équipe.",
       },
     ],
     recommendedServices: ["flipbook-pro", "brand-starter", "production-video-standard"],
     faq: [
       {
         q: "On peut commencer petit avec juste le FlipBook ?",
-        a: "Oui. FlipBook Pro Essentiel à 99 000 FCFA / an. Tu peux toujours upgrade vers le Pack Resto plus tard.",
+        a: "Oui. FlipBook Pro Essentiel à 99 000 FCFA / an. Vous pouvez toujours upgrader vers le Pack Resto plus tard.",
       },
       {
         q: "Le QR Code à chaque table, ça abîme l'esthétique ?",
-        a: "On le designe à tes couleurs, sur support qualité (acrylique gravé, présentoir bois). Discret et chic.",
+        a: "On le designe à vos couleurs, sur support qualité (acrylique gravé, présentoir bois). Discret et chic.",
       },
     ],
   },
   {
-    slug: "boutiques-retail",
+    slug: "commerce",
     name: "Boutiques, retail, e-commerce",
     tagline: "Vitrine 24/7",
     shortDescription:
-      "Catalogue accessible partout, paiement Mobile Money, commande WhatsApp. Ta boutique ne ferme jamais.",
+      "Catalogue accessible partout, paiement Mobile Money, commande WhatsApp. Votre boutique ne ferme jamais.",
     longDescription:
       "On accompagne les boutiques qui veulent passer en mode mobile-first. Catalogue WhatsApp Business pro, FlipBook accessible 24/7, Reels mode/produit, et activations street pour les ouvertures et lancements.",
     icon: ShoppingBag,
@@ -94,7 +94,7 @@ export const SECTORS: Sector[] = [
       },
       {
         title: "FlipBook nouvelle collection",
-        body: "À chaque collection, un FlipBook partagé sur WhatsApp/réseaux. Tes clients feuillettent, commandent, paient.",
+        body: "À chaque collection, un FlipBook partagé sur WhatsApp/réseaux. Vos clients feuillettent, commandent, paient.",
       },
       {
         title: "Caravane Mobile pour lancements",
@@ -114,7 +114,7 @@ export const SECTORS: Sector[] = [
     ],
   },
   {
-    slug: "ecoles-formations",
+    slug: "education",
     name: "Écoles, instituts, formations",
     tagline: "Diffusion virale",
     shortDescription:
@@ -138,7 +138,7 @@ export const SECTORS: Sector[] = [
       },
       {
         title: "Site Express avec préinscription",
-        body: "Site one-pager présentation + formulaire de préinscription. Tu reçois les contacts qualifiés directement.",
+        body: "Site one-pager présentation + formulaire de préinscription. Vous recevez les contacts qualifiés directement.",
       },
       {
         title: "Story Reels — montrer la pédagogie",
@@ -182,7 +182,7 @@ export const SECTORS: Sector[] = [
       },
       {
         title: "Identité visuelle haut de gamme",
-        body: "Brand Starter dédié à ton image immobilière. Logo, charte, papeterie qui inspirent confiance et sérieux.",
+        body: "Brand Starter dédié à votre image immobilière. Logo, charte, papeterie qui inspirent confiance et sérieux.",
       },
       {
         title: "Vidéos de visite premium",
@@ -246,7 +246,7 @@ export const SECTORS: Sector[] = [
     ],
   },
   {
-    slug: "pme-entrepreneurs",
+    slug: "pme",
     name: "PME & Entrepreneurs",
     tagline: "Digital starter",
     shortDescription:
@@ -281,7 +281,7 @@ export const SECTORS: Sector[] = [
     faq: [
       {
         q: "Combien je dois budgéter pour démarrer pro ?",
-        a: "Brand Starter (150k FCFA) + Site Express (99–250k) = à partir de 249 000 FCFA. Tu démarres avec une marque crédible et un site qui convertit.",
+        a: "Brand Starter (150k FCFA) + Site Express (99–250k) = à partir de 249 000 FCFA. Vous démarrez avec une marque crédible et un site qui convertit.",
       },
       {
         q: "Et si je veux du suivi continu ?",

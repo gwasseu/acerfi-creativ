@@ -115,14 +115,14 @@ export default function AboutPage() {
                   l&apos;Afrique.
                 </p>
                 <p>
-                  En{" "}
+                  En <span className="text-foreground italic">2026</span>,{" "}
+                  <span className="text-foreground">ACERFI Créativ</span>{" "}
+                  s&apos;affirme comme le{" "}
                   <span className="text-foreground italic">
-                    {new Date().getFullYear()}
+                    studio créatif et marketing IA du Groupe
                   </span>
-                  , <span className="text-foreground">ACERFI Créativ</span>{" "}
-                  devient le <span className="text-foreground italic">{ACERFI.creativ.positioning.toLowerCase()}</span>,
-                  laboratoire d&apos;innovation marketing le plus avancé
-                  d&apos;Afrique centrale.
+                  , laboratoire d&apos;innovation qui allie créativité humaine
+                  et puissance de l&apos;IA générative.
                 </p>
               </div>
             </div>
@@ -141,7 +141,7 @@ export default function AboutPage() {
               />
               <div className="absolute bottom-0 left-0 right-0 p-6">
                 <span className="text-[10px] font-semibold uppercase tracking-[0.22em] text-primary">
-                  Premier studio IA marketing du Cameroun
+                  Studio créatif & marketing IA — Yaoundé
                 </span>
               </div>
             </div>

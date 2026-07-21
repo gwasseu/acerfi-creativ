@@ -26,7 +26,7 @@ export default function PricingPage() {
               traîne
             </>
           }
-          description="Mobile Money, virement, carte. Tu sais ce que tu paies, ce que tu reçois, et en combien de jours."
+          description="Mobile Money, virement, carte. Vous savez ce que vous payez, ce que vous recevez, et en combien de jours."
         />
 
         <Pricing />
