@@ -59,7 +59,7 @@ export function Hero() {
       >
         <Image
           src="/images/services/hero-bg.jpg"
-          alt=""
+          alt="Studio créatif ACERFI Créativ à Yaoundé"
           fill
           priority
           sizes="100vw"

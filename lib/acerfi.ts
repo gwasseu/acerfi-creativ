@@ -78,9 +78,8 @@ export const ACERFI = {
     whatsapp: "https://wa.me/237695080808",
     whatsappLabel: "Réponse sous 1 h en journée ouvrée",
     emails: {
-      general: "contact@acerfi.net",
-      info: "info@acerfi.net",
       primary: "contact@acerfi.net",
+      info: "info@acerfi.net",
     },
     hours: {
       weekday: "Lun – Ven : 8h00 – 18h00",

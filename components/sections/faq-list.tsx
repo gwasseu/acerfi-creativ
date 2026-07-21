@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { frenchTypo } from "@/lib/text";
 
 type FaqItem = { q: string; a: string };
 
@@ -37,7 +38,7 @@ function FaqEntry({ item, index }: { item: FaqItem; index: number }) {
         aria-expanded={open}
       >
         <span className="font-display text-base font-semibold text-foreground md:text-lg">
-          {item.q}
+          {frenchTypo(item.q)}
         </span>
         <ChevronDown
           className={cn(
@@ -56,7 +57,7 @@ function FaqEntry({ item, index }: { item: FaqItem; index: number }) {
             className="overflow-hidden"
           >
             <p className="px-6 pb-6 text-sm leading-relaxed text-muted-foreground md:text-base">
-              {item.a}
+              {frenchTypo(item.a)}
             </p>
           </motion.div>
         )}
