@@ -1,0 +1,355 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ──────────────────────────────────────────────────────────────────────
+   ACERFI CREATIV — BRAND TOKENS
+   Source: lib/design-tokens.ts (mirrored here for Tailwind v4 @theme).
+   Extracted from the official logo: gold gradient + ink charcoal.
+   ────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* Surfaces */
+  --background: #0a0a0a;
+  --foreground: #fafaf7;
+  --card: #141414;
+  --card-foreground: #fafaf7;
+  --popover: #0a0a0a;
+  --popover-foreground: #fafaf7;
+  --muted: #1a1a1a;
+  --muted-foreground: #a8a29e;
+
+  /* Brand — gold (extracted from the logo) */
+  --primary: #f5b400;            /* gold-500, signature */
+  --primary-foreground: #0a0a0a; /* ink-900 on gold */
+  --primary-light: #ffd93d;      /* gold-300, gradient light end */
+  --primary-dark: #d9930b;       /* gold-600, hover/active */
+  --filament: #ffd400;           /* squiggle yellow, joyful accent */
+
+  /* Echelle gold complète (utile pour utilities arbitraires) */
+  --gold-50: #fff8dc;
+  --gold-100: #ffefa8;
+  --gold-200: #ffe066;
+  --gold-300: #ffd93d;
+  --gold-400: #ffcc1a;
+  --gold-500: #f5b400;
+  --gold-600: #d9930b;
+  --gold-700: #a66e08;
+  --gold-800: #7a4f05;
+  --gold-900: #4d3103;
+
+  /* Secondary & accent — déclinaisons gold pour rester monochrome */
+  --secondary: #ffd93d;
+  --secondary-foreground: #0a0a0a;
+  --accent: #ffe066;
+  --accent-foreground: #0a0a0a;
+
+  /* Semantic */
+  --success: #16a34a;
+  --warning: #f59e0b;
+  --destructive: #dc2626;
+  --destructive-foreground: #fafaf7;
+  --info: #0ea5e9;
+
+  /* Borders, inputs, focus — gold-tinted */
+  --border: rgba(245, 180, 0, 0.16);
+  --input: rgba(245, 180, 0, 0.22);
+  --ring: #f5b400;
+
+  /* Radius scale (8px baseline, generous to echo the logo bulb) */
+  --radius: 0.75rem; /* 12px — DEFAULT for cards */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+
+  /* Z-index scale */
+  --z-dropdown: 1000;
+  --z-sticky: 1100;
+  --z-header: 1200;
+  --z-overlay: 1300;
+  --z-modal: 1400;
+  --z-popover: 1500;
+  --z-toast: 1600;
+  --z-tooltip: 1700;
+}
+
+@theme inline {
+  /* Surfaces */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  /* Brand */
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark: var(--primary-dark);
+  --color-filament: var(--filament);
+
+  /* Gold scale (Tailwind utility: text-gold-500, bg-gold-300, etc.) */
+  --color-gold-50: var(--gold-50);
+  --color-gold-100: var(--gold-100);
+  --color-gold-200: var(--gold-200);
+  --color-gold-300: var(--gold-300);
+  --color-gold-400: var(--gold-400);
+  --color-gold-500: var(--gold-500);
+  --color-gold-600: var(--gold-600);
+  --color-gold-700: var(--gold-700);
+  --color-gold-800: var(--gold-800);
+  --color-gold-900: var(--gold-900);
+
+  /* Secondary/accent */
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  /* Semantic */
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-info: var(--info);
+
+  /* Inputs */
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Radius */
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+  --radius-2xl: var(--radius-2xl);
+  --radius-full: 9999px;
+
+  /* Fonts (variables exposées par lib/fonts.ts) */
+  --font-display:
+    var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-mono), ui-monospace, "JetBrains Mono", monospace;
+
+  /* Warm gold-tinted shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(245, 180, 0, 0.08);
+  --shadow-md:
+    0 4px 12px -2px rgba(245, 180, 0, 0.12),
+    0 2px 4px -2px rgba(0, 0, 0, 0.18);
+  --shadow-lg:
+    0 10px 30px -8px rgba(245, 180, 0, 0.2),
+    0 4px 8px -4px rgba(0, 0, 0, 0.24);
+  --shadow-xl:
+    0 24px 60px -16px rgba(245, 180, 0, 0.28),
+    0 8px 16px -8px rgba(0, 0, 0, 0.32);
+  --shadow-glow: 0 0 40px rgba(245, 180, 0, 0.28);
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    border-color: var(--border);
+  }
+
+  html {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    background:
+      radial-gradient(
+        ellipse 80% 50% at 50% -20%,
+        rgba(245, 180, 0, 0.15),
+        transparent
+      ),
+      var(--background);
+    color: var(--foreground);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+  }
+
+  ::selection {
+    background-color: rgba(245, 180, 0, 0.3);
+    color: var(--foreground);
+  }
+}
+
+@theme {
+  --animate-spotlight: spotlight 2s ease 0.6s 1 forwards;
+  --animate-gradient: gradient 6s linear infinite;
+
+  @keyframes spotlight {
+    0% {
+      opacity: 0;
+      transform: translate(-72%, -62%) scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -40%) scale(1);
+    }
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* Cycle d'une page :
+     - reste fermée pendant 1/N du cycle
+     - flip (env. 22% du cycle)
+     - reste à plat dans le passé jusqu'à la fin du cycle */
+  @keyframes pageflip {
+    0% {
+      transform: rotateY(0deg);
+    }
+    11.1% {
+      transform: rotateY(0deg);
+    }
+    33.3% {
+      transform: rotateY(-172deg);
+    }
+    100% {
+      transform: rotateY(-172deg);
+    }
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes glow-pulse {
+    0%,
+    100% {
+      box-shadow:
+        0 0 36px rgba(245, 180, 0, 0.22),
+        0 0 0 1px rgba(245, 180, 0, 0.18);
+    }
+    50% {
+      box-shadow:
+        0 0 64px rgba(245, 180, 0, 0.42),
+        0 0 0 1px rgba(245, 180, 0, 0.32);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Custom cursor — desktop fine pointer only.
+   On garde le cursor par défaut sur les inputs / textareas pour pas casser
+   l'UX de saisie. Et fallback `auto` cursor au cas où le JS ne charge pas. */
+@media (hover: hover) and (pointer: fine) {
+  html.has-custom-cursor body {
+    cursor: none;
+  }
+  html.has-custom-cursor a,
+  html.has-custom-cursor button,
+  html.has-custom-cursor [role="button"],
+  html.has-custom-cursor [data-cursor] {
+    cursor: none;
+  }
+}
+
+@layer utilities {
+  /* Brand gradient — diagonal gold sweep mirroring the logo bulb */
+  .gradient-gold {
+    background: linear-gradient(
+      135deg,
+      #ffd93d 0%,
+      #f5b400 50%,
+      #d9930b 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bg-gradient-gold {
+    background: linear-gradient(
+      135deg,
+      #ffd93d 0%,
+      #f5b400 50%,
+      #d9930b 100%
+    );
+  }
+
+  .glow-gold {
+    box-shadow: 0 0 40px rgba(245, 180, 0, 0.28);
+  }
+
+  .glow-pulse {
+    animation: glow-pulse 4.2s ease-in-out infinite;
+  }
+
+  .border-gold-soft {
+    border-color: rgba(245, 180, 0, 0.18);
+  }
+
+  /* Filament accent — saturated yellow squiggle, used for joyful flourishes */
+  .text-filament {
+    color: var(--filament);
+  }
+}
