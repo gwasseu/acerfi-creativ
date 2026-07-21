@@ -111,10 +111,10 @@ export const ACERFI = {
   ],
 
   trustBadges: [
-    { icon: "🏆", value: "30+ ans", label: "d'expertise (Groupe ACERFI, depuis 1995)" },
-    { icon: "🎯", value: "100+", label: "clients accompagnés au Cameroun et en Afrique francophone" },
-    { icon: "⚡", value: "Premier", label: "studio IA marketing du Cameroun" },
-    { icon: "🌍", value: "Yaoundé · Douala", label: "Afrique francophone" },
+    { value: "30+ ans", label: "d'expertise (Groupe ACERFI, depuis 1995)" },
+    { value: "100+", label: "clients accompagnés au Cameroun et en Afrique francophone" },
+    { value: "Premier", label: "studio IA marketing du Cameroun" },
+    { value: "Yaoundé · Douala", label: "Afrique francophone" },
   ],
 
   ecosystem: [

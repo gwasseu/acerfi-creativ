@@ -160,7 +160,7 @@ function ServiceGridCard({ service, index }: { service: Service; index: number }
               }}
               aria-label="Service phare"
             >
-              ★ Phare
+              Phare
             </span>
           )}
         </div>

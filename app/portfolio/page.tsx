@@ -44,7 +44,7 @@ export default function PortfolioPage() {
           <div className="mx-auto max-w-6xl">
             <div className="mb-10 flex flex-col gap-3">
               <span className="text-xs font-semibold uppercase tracking-[0.22em] text-primary">
-                ★ Cas client référence
+                Cas client référence
               </span>
               <h2 className="font-display text-3xl font-bold leading-[1.05] md:text-5xl">
                 Quelques marques qui nous font confiance

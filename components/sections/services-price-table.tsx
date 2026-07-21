@@ -115,7 +115,7 @@ function PriceRow({ service, last }: { service: Service; last: boolean }) {
                   className="ml-2 align-middle text-[10px] font-semibold uppercase tracking-[0.18em]"
                   style={{ color: service.accent }}
                 >
-                  ★
+                  Phare
                 </span>
               )}
             </span>

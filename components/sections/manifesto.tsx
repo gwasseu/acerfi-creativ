@@ -45,7 +45,7 @@ export function Manifesto() {
           transition={{ duration: 0.4 }}
           className="block text-[10px] font-semibold uppercase tracking-[0.32em] text-primary"
         >
-          ✦ Manifeste
+          Manifeste
         </motion.span>
 
         <h2 className="mt-8 font-display text-[clamp(2.4rem,7vw,6rem)] font-light leading-[1.05] tracking-tight">

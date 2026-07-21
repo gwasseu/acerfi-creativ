@@ -34,7 +34,6 @@ import {
 export type Pole = {
   slug: string;
   name: string;
-  emoji: string;
   tagline: string;
   description: string;
   icon: LucideIcon;
@@ -45,7 +44,6 @@ export const POLES: Pole[] = [
   {
     slug: "ia",
     name: "Intelligence Artificielle",
-    emoji: "🤖",
     tagline: "Agents · Avatars · Automatisation",
     description:
       "Conception et déploiement d'agents IA, bots conversationnels, avatars virtuels et workflows automatisés pour vos opérations.",
@@ -55,7 +53,6 @@ export const POLES: Pole[] = [
   {
     slug: "video-photo",
     name: "Vidéo & Photo",
-    emoji: "🎬",
     tagline: "Production éditoriale & cinématique",
     description:
       "Tournages, montages, photo événementielle, clips musicaux. Du standard au Premium, en passant par les avatars IA.",
@@ -65,7 +62,6 @@ export const POLES: Pole[] = [
   {
     slug: "design",
     name: "Design Graphique",
-    emoji: "🎨",
     tagline: "Identité · Print · FlipBook Pro",
     description:
       "Identités visuelles complètes, supports imprimés, packaging, signalétique. Plus le FlipBook Pro — solution exclusive ACERFI Créativ.",
@@ -75,7 +71,6 @@ export const POLES: Pole[] = [
   {
     slug: "strategie",
     name: "Stratégie & Contenu",
-    emoji: "✍️",
     tagline: "Audit · Copywriting · Plan éditorial",
     description:
       "Stratégies de contenu, audits concurrentiels, copywriting SEO. La parole qui convertit.",
@@ -85,7 +80,6 @@ export const POLES: Pole[] = [
   {
     slug: "web",
     name: "Web & Digital",
-    emoji: "🌐",
     tagline: "Sites IA · E-commerce · Pack Starter",
     description:
       "Sites vitrines premium, e-commerce, refontes augmentées par l'IA. Plus le Pack Starter Digital tout-inclus.",
@@ -95,7 +89,6 @@ export const POLES: Pole[] = [
   {
     slug: "terrain",
     name: "Terrain & Événementiel",
-    emoji: "🚐",
     tagline: "Caravane · Métavers · Spectacle",
     description:
       "Activations physiques (fourgonnette ou camion premium), événements métavers Web3, spectacles urbains immersifs.",
@@ -105,7 +98,6 @@ export const POLES: Pole[] = [
   {
     slug: "packs",
     name: "Packs Premium",
-    emoji: "🚀",
     tagline: "Solutions globales transversales",
     description:
       "Lancements coordonnés et campagnes multi-canaux. Du Rocket Start au Empire Builder — engagement de résultats.",
@@ -152,7 +144,7 @@ export type Service = {
 
 export const SERVICES: Service[] = [
   // ──────────────────────────────────────────────────────────────────────
-  // 🤖 PÔLE IA
+  // PÔLE IA
   // ──────────────────────────────────────────────────────────────────────
   {
     slug: "agent-ia-personnalise",
@@ -270,7 +262,7 @@ export const SERVICES: Service[] = [
   },
 
   // ──────────────────────────────────────────────────────────────────────
-  // 🎬 PÔLE VIDÉO & PHOTO
+  // PÔLE VIDÉO & PHOTO
   // ──────────────────────────────────────────────────────────────────────
   {
     slug: "production-video-standard",
@@ -405,7 +397,7 @@ export const SERVICES: Service[] = [
   },
 
   // ──────────────────────────────────────────────────────────────────────
-  // 🎨 PÔLE DESIGN
+  // PÔLE DESIGN
   // ──────────────────────────────────────────────────────────────────────
   {
     slug: "design-graphique-standard",
@@ -519,7 +511,7 @@ export const SERVICES: Service[] = [
   },
 
   // ──────────────────────────────────────────────────────────────────────
-  // ✍️ PÔLE STRATÉGIE & CONTENU
+  // PÔLE STRATÉGIE & CONTENU
   // ──────────────────────────────────────────────────────────────────────
   {
     slug: "strategie-contenu",
@@ -571,7 +563,7 @@ export const SERVICES: Service[] = [
   },
 
   // ──────────────────────────────────────────────────────────────────────
-  // 🌐 PÔLE WEB & DIGITAL
+  // PÔLE WEB & DIGITAL
   // ──────────────────────────────────────────────────────────────────────
   {
     slug: "site-express",
@@ -687,7 +679,7 @@ export const SERVICES: Service[] = [
   },
 
   // ──────────────────────────────────────────────────────────────────────
-  // 🚐 PÔLE TERRAIN & ÉVÉNEMENTIEL
+  // PÔLE TERRAIN & ÉVÉNEMENTIEL
   // ──────────────────────────────────────────────────────────────────────
   {
     slug: "caravane-mobile",
@@ -757,7 +749,7 @@ export const SERVICES: Service[] = [
   },
 
   // ──────────────────────────────────────────────────────────────────────
-  // 🚀 PACKS PREMIUM
+  // PACKS PREMIUM
   // ──────────────────────────────────────────────────────────────────────
   {
     slug: "pack-rocket-start",

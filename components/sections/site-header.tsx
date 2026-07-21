@@ -305,7 +305,7 @@ function MegaServices() {
         <div>
           <div className="mb-4 flex items-center justify-between">
             <span className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
-              ★ Stars du catalogue
+              Stars du catalogue
             </span>
           </div>
           <ul className="grid grid-cols-2 gap-3">

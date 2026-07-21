@@ -148,7 +148,7 @@ function ServicePreviewCard({ service, index }: { service: Service; index: numbe
                 : "border-primary/25 bg-primary/[0.08] text-primary",
             )}
           >
-            ★ Phare
+            Phare
           </span>
         </div>
 
