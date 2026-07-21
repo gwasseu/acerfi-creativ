@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Sparkles } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { SiteHeader } from "@/components/sections/site-header";
 import { Footer } from "@/components/sections/footer";
 import { FinalCta } from "@/components/sections/final-cta";
 import { PageHero } from "@/components/sections/page-hero";
+import { ClientsTrust } from "@/components/sections/clients-trust";
 import { SECTORS } from "@/content/sectors";
 
 export const metadata: Metadata = {
@@ -80,25 +81,11 @@ export default function PortfolioPage() {
                   </article>
                 );
               })}
-
-              {/* Slot "À venir" pour clients sous NDA / à officialiser */}
-              {Array.from({ length: 5 }).map((_, i) => (
-                <article
-                  key={`slot-${i}`}
-                  className="flex h-full min-h-[180px] flex-col justify-center rounded-2xl border border-dashed border-white/[0.08] bg-card/20 p-7 text-center"
-                >
-                  <Sparkles className="mx-auto h-5 w-5 text-primary/40" />
-                  <p className="mt-3 text-xs uppercase tracking-[0.22em] text-muted-foreground/50">
-                    Bientôt révélé
-                  </p>
-                  <p className="mt-2 text-xs text-muted-foreground/40">
-                    Plus de 100 clients accompagnés.
-                  </p>
-                </article>
-              ))}
             </div>
           </div>
         </section>
+
+        <ClientsTrust />
 
         {/* Secteurs d'expertise */}
         <section className="relative w-full px-6 py-20 md:py-24">
